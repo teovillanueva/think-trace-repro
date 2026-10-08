@@ -1,0 +1,9 @@
+{
+  "name": "think-trace-repro",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "durable_objects": { "bindings": [{ "name": "ReproAgent", "class_name": "ReproAgent" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ReproAgent"] }],
+  "observability": { "enabled": true, "traces": { "enabled": true, "head_sampling_rate": 1 } }
+}

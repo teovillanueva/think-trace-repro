@@ -1,0 +1,13 @@
+{
+  "name": "think-trace-repro",
+  "private": true,
+  "type": "module",
+  "scripts": { "deploy": "wrangler deploy", "types": "wrangler types" },
+  "dependencies": {
+    "@cloudflare/think": "0.20.1",
+    "agents": "0.27.0",
+    "ai": "7.0.128",
+    "zod": "4.6.5"
+  },
+  "devDependencies": { "wrangler": "4.143.0", "typescript": "6.0.3" }
+}
